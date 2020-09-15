@@ -5,7 +5,7 @@ const eqArrays = function(array1, array2) {
   return array1String === array2String;
 };
 
-const assertArraysEqual = function (array1, array2) {
+const assertArraysEqual = function(array1, array2) {
   if (eqArrays(array1, array2)) {
     return `✅️✅️✅️ Assertion Passed: "${array1}" === "${array2}"`;
   } else {

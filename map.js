@@ -7,3 +7,5 @@ let mapFunction = function(array, callback) {
   }
   return newArray;
 };
+
+console.log(mapFunction([1,2,3], x => x +1));

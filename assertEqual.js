@@ -8,6 +8,5 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// TEST CODE
-assertEqual('hi', 'hi there');
-assertEqual(1, 1);
+
+module.exports = assertEqual;
